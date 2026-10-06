@@ -1,0 +1,25 @@
+.box{
+    border: solid black 2px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+    background-color: gray;
+}
+body .box{
+    background-color: white;
+}
+.content{
+    display: flex;
+}
+.content main{
+    width: 80%;
+}
+.content aside{
+    width: 20%;
+}
+header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}

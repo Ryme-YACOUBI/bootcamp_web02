@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CodingPedia.css">
+    <title>CodingPedia</title>
+</head>
+<body>
+    <header class="box">
+        <h1>Welcome to CodingPedia!</h1>
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual
+    which functions as a wiki.</p>
+        <p>CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify
+    and improve.</p>
+    <nav class="box">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="php.html">PHP</a></li>
+            <li><a href="sql.html">SQL</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="content">
+    <main class="box">    
+        <p>CodingPedia is an online encyclopedia dedicated to computer science and programming. It brings together clear and accessible information about programming languages, development concepts, algorithms, tools, and technologies. Its purpose is to help beginners discover the world of coding while providing useful knowledge for those who want to deepen their skills.</p>
+        <form>
+            <fieldset>
+                <div>
+                    <label for="fn">First name </label><input type="text" id="fn" required>
+                </div>
+                <br>
+                <div>
+                    <label for="ln">Last name </label><input type="text" id="ln" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Email </label><input type="email" id="mail" required>
+                </div>
+                <br>
+                <div>
+                    <label for="age">age </label><input type="number" id="age" min="3" max="99">
+                </div>
+                <br>
+                <div>
+                    <label for="tel">Phone </label><input type="tel" minlength="10" maxlength="10" id="tel">
+                </div>
+                <br>
+                <div>
+                    <label>sex </label>
+                    <label for="male"> male </label><input type="radio" name="sexe" value="male" id="male" checked>
+                    <label for="female"> female </label><input type="radio" name="sexe" value="female" id="female">
+                </div>
+                <br>
+                <div>
+                    <label for="hc">Hair color    </label><input type="color" id="hc">
+                </div>
+                <br>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" required id="date">
+                </div>
+                <br>
+                <div>
+                    <label for="tech">Technology</label>
+                    <select id="tech">
+                        <option>PHP</option>
+                        <option>SQL</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="ask">Question</label>
+                    <textarea id="ask" required></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                <br>
+                </fieldset>
+        </form>
+    
+    
+    </main>
+    <aside class="box">
+        <p>I am Ryme Yacoubi, a software engineering student with a strong curiosity for technology and a desire to keep learning. I enjoy discovering new ideas, solving problems, and exploring how creativity and technology can come together to create useful and meaningful projects.</p>
+    </aside>
+    </div>
+    <footer class="box">
+        <address>
+            Yacoubi<br>
+            Ryme<br>
+            21 allée fontainebleau Paris 19<br>
+            +212637-756561<br>
+        </address>
+    </footer>
+</body>
+</html>
